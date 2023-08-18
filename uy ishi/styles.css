@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.card-contener{
+    width: 1450px;
+    height: 1070px;
+    margin-left: 35px;
+}
+.card-content{
+    color: #111;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; /* 218.182% */
+}
+.card-img{
+   width: 100%;
+}
+.card-nike{
+    color: #111;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Helvetica Neue;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 60px; /* 107.143% */
+    text-transform: uppercase; 
+}
+.text1{
+    margin-top: 50px;
+}
+.text2{
+    margin-left: 470px;
+    margin-top: 25px;
+    font-size: 15px;
+    width: 510px;
+}
+.card-button{
+    margin-top: 20px;
+    gap: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.card-button1{
+    width: 90px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50px;
+}
+.card-button  p{
+    color: white;
+}
+.card-button2{
+    width: 120px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50px;
+}
+.link{
+    color: #111;
+}
